@@ -1682,6 +1682,11 @@ body{
 	.maps{
 		height: 350px;
 	}
+
+
+	.background-img{
+		background-position: -440px center;
+	}
 }
 @media (max-width: 400px){
 	.contact-esas .contact-esas1-alt{
@@ -1713,6 +1718,6 @@ body{
     }
 
 	.background-img{
-		background-position: -500px center;
+		background-position: -565px center;
 	}
 }
