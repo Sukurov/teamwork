@@ -1722,6 +1722,9 @@ body{
 		text-align: center;
 		width: 85%;
 	}
+	.premium-esas-div .premium-metn-div .pr-sp3{
+		width: 80%;
+	}
 }
 @media (max-width: 400px){
 	.contact-esas .contact-esas1-alt{
