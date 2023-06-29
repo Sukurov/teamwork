@@ -1715,6 +1715,13 @@ body{
 		align-items: center;
 		text-align: center;
 	}
+	.contact-esas .contact-span{
+		width: 100%;
+	}
+	.contact-esas h2{
+		text-align: center;
+		width: 85%;
+	}
 }
 @media (max-width: 400px){
 	.contact-esas .contact-esas1-alt{
