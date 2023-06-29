@@ -409,6 +409,10 @@ body{
 .creative-team-esas .creative-team-menyu-esas .creative-team-menyu-div1{
 	background: linear-gradient(90deg, #423f9c 31%, #862359 69%);
 }
+.creative-team-esas .creative-team-menyu-esas img{
+	object-fit: cover;
+	
+}
 .video-div-esas{
 	width: 100%;
 	display: flex;
@@ -1259,7 +1263,7 @@ body{
 	visibility: hidden;
 	position: absolute;
 	top: 25px;
-	right: 20px;
+	right: 30px;
 	font-size: 2rem;
 	color: white;
 }
@@ -1663,10 +1667,19 @@ body{
 	.background-img{
 		background-position: -330px center;
 	}
-
-	
+	.menu-list .navbar ul{
+		padding-left: 30px;
+	}
+	.blog-esas .blog-sag{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
 }
-@media (max-width: 480px){
+@media(max-width: 480px){
 	.contact-esas{
 		padding: 0;
 	}
@@ -1682,10 +1695,25 @@ body{
 	.maps{
 		height: 350px;
 	}
-
+	.menu-list .logo .sp1-1{
+		padding-left: 20px;
+	}
 
 	.background-img{
 		background-position: -440px center;
+	}
+	
+	.contact-esas .contact-esas-child .contact-esas1 .contact-esas1-alt .p-alt{
+		padding-top: 20px;
+		width: 90%;
+		text-align: center;
+	}
+	.contact-esas .contact-esas-child .contact-esas1 .contact-esas1-alt .contact-esas1-alt-child{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 	}
 }
 @media (max-width: 400px){
@@ -1710,7 +1738,13 @@ body{
 		gap: 0;
 	}
 	.contact-esas .contact-esas-child .contact-esas2 .input-div-ust input{
-		width: 100%;
+		width: 80%;
+	}
+	.contact-esas .contact-esas-child .contact-esas2 .input-div-ust textarea{
+		width: 80%;
+	}
+	.contact-esas .contact-esas-child .contact-esas2 .input-div-ust button{
+		width: 80%;
 	}
     .contact-esas h2{
 	    padding-left: 40px;
