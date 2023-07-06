@@ -262,7 +262,9 @@
     </div>
 
     <div class="youtube-esas" id="ytb">
-     <i class='bx bx-x-circle close-1'></i>
+          <i class='bx bx-x-circle close-1' id="btn_ytb"></i>
+          <iframe width="650" height="350" src="https://www.youtube.com/embed/ESnrn1kAD4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
     </div>
     
          
@@ -636,7 +638,10 @@
           })
 
           youtube_link.onclick=function(){
-               ytb.style.display="block";
+               ytb.style.display="flex";
+          }
+          btn_ytb.onclick=function(){
+               ytb.style.display="none";
           }
       </script>
    
