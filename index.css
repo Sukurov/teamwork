@@ -1814,7 +1814,6 @@ body{
 	    padding-left: 40px;
 		padding-bottom: 30px;
     }
-
 	.background-img{
 		background-position: -565px center;
 	}
@@ -1826,7 +1825,7 @@ body{
 	background-size: 45%;
 	height: 100vh;
 	width: 100%;
-	z-index: 1000;
+	z-index: 1000000;
 	position: fixed;
 }
 
